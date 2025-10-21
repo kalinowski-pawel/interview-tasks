@@ -6,6 +6,7 @@ header {
   column-gap: 1rem;
   margin-top: 1rem;
   margin-right: 1rem;
+  padding: 2rem;
 }
 
 .section {
@@ -15,7 +16,9 @@ header {
   justify-content: flex-start;
 
   &__header{
-
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
   }
 
 }

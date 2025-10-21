@@ -1,13 +1,23 @@
-@import "colors.scss";
+@use "colors.scss";
 
 .default {
-  background-color: $white;
+  background-color: colors.$white;
   width: 100vw;
   height: 100vh;
+
+  --btn-bg: colors.$black;
+  --btn-fg: colors.$white;
+  --btn-border: colors.$error;
+  --btn-bg-hover: lighten(colors.$black, 10%);
 }
 
 .dark {
-  background-color: $black;
+  background-color: colors.$black;
   width: 100vw;
   height: 100vh;
+
+  --btn-bg: colors.colors.$white;
+  --btn-fg: colors.colors.$black;
+  --btn-border: colors.colors.$info;
+  --btn-bg-hover: darken(colors.colors.$white, 10%);
 }

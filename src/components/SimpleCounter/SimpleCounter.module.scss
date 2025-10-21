@@ -1,0 +1,16 @@
+@use '../../design/colors';
+@use '../../design/theme';
+
+.simpleCounter {
+  display: flex;
+  flex-direction: column;
+  color: colors.$lightGray;
+  border: 1px solid colors.$lightGray;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 120ms ease-in-out;
+  width: 400px;
+  height: 200px;
+
+}

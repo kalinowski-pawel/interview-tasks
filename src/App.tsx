@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SimpleCounter } from '@@components';
+import { SimpleCounter, SearchBox } from '@@components';
 import { ThemeProvider } from './ThemeProvider.tsx';
 
 import styles from './App.module.scss';
@@ -28,6 +28,10 @@ function App() {
       <div className={styles.section}>
         <header className={styles.section__header}>Button counter</header>
         <SimpleCounter />
+      </div>
+
+      <div className={styles.section}>
+        <SearchBox />
       </div>
     </ThemeProvider>
   );

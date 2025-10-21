@@ -1,6 +1,6 @@
 # Simple tasks for practicing
 
-## Design systems 
+## Design system
  TODO still in progress
 
 ## Search box with debounce

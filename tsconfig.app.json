@@ -26,6 +26,7 @@
     "allowSyntheticDefaultImports": true,
     "paths": {
       "@@components": ["./src/components"],
+      "@@common": ["./src/common"],
     }
   },
   "include": ["src"]

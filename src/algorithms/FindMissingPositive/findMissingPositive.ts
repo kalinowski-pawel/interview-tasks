@@ -1,11 +1,7 @@
-export const arrayGenerator = (start: number = 1, length: number = 100, missingNumber: number = 48 ) => {
-  const result: number[] = [];
-  for (let i = start; i <= length; i++) {
-    if (i === 0 || i === missingNumber) continue;
-    result.push(i);
-  }
-  return result;
-}
+/**
+ * Exercise Description:
+ * Given an unsorted array of integers, find the smallest missing positive integer.
+ */
 
 //Simple fast way to return missing positive integer
 export const findMissingPositive = (nums: number[]): number | undefined => {

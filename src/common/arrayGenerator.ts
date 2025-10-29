@@ -1,10 +1,16 @@
-const arrayGenerator = (start: number = 1, length: number = 100, missingNumber: number = 48 ) => {
+export const arrayGeneratorWithMissingNumber = (start: number = 1, max: number = 100, missingNumber: number = 48 ) => {
   const result: number[] = [];
-  for (let i = start; i <= length; i++) {
+  for (let i = start; i <= max; i++) {
     if (i === 0 || i === missingNumber) continue;
     result.push(i);
   }
   return result;
 }
 
-export default arrayGenerator;
+export const arrayGenerator = (start: number = 1, max: number = 100) => {
+  const result: number[] = [];
+  for (let i = start; i <= max; i++) {
+    result.push(i);
+  }
+  return result;
+}

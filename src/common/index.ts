@@ -1,1 +1,1 @@
-export { default as ArrayGenerator } from './arrayGenerator';
+export * from './arrayGenerator';

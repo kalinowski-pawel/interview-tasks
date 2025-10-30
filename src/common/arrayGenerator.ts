@@ -14,3 +14,6 @@ export const arrayGenerator = (start: number = 1, max: number = 100) => {
   }
   return result;
 }
+
+export const randomIntArrayInRange = (min = 1, max= 10, n= 10) =>
+  Array.from({ length: n }, () => Math.floor(Math.random() * (max - min + 1)) + min);
